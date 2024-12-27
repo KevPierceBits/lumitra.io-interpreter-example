@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumitra Voice Interpreter Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .demo-banner {
+            background-color: #f0f0f0;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .widget-container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="demo-banner">
+        <h1>🎯 Example: Lumitra Voice Interpreter</h1>
+        <p>This is a demo page showcasing the Lumitra voice interpretation widget in action.</p>
+    </div>
+
+    <div class="description">
+        <p><strong>Try it yourself:</strong></p>
+        <p>1. Click the microphone button</p>
+        <p>2. Select your languages</p>
+        <p>3. Start speaking</p>
+    </div>
+    
+    <div class="widget-container">
+        <script>
+            window.lumitraSettings = {
+                company_id: 'company_1e386a98',
+                client_id: '5siG6X2vePtVinY6Gnai',
+                prompt_id: 'Dynamic_Voice_Interpreter'
+            };
+        </script>
+        <script src="https://voicecore-frontend-prod.fly.dev/lumitra-widget.js"></script>
+    </div>
+
+    <footer style="margin-top: 40px; font-size: 0.9em; color: #666;">
+        <p>This is an example implementation of the Lumitra voice interpretation widget.</p>
+    </footer>
+</body>
+</html>
